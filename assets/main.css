@@ -236,8 +236,49 @@ select:-webkit-autofill {
   -webkit-text-fill-color: #3c3c3d;
   -webkit-box-shadow: 0 0 0px 1000px white inset !important; }
 
+.site-header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  float: right;
+  width: 100%;
+  transition: all 1s; }
+  @media (max-width: 620px) {
+    .site-header {
+      width: auto; } }
+  .site-header.nav-scrolled {
+    background: #333;
+    transition: all 1s; }
+  @media (max-width: 620px) {
+    .site-header {
+      top: 2rem; } }
+
+.mobileMenu {
+  position: absolute;
+  left: -1000px;
+  height: 100%;
+  width: 50%;
+  z-index: 200;
+  background: black;
+  transition: all .5s; }
+  .mobileMenu.mobileMenu-show {
+    left: 0;
+    transition: all .5s; }
+  .mobileMenu .mobileNav {
+    list-style: none;
+    color: white; }
+  .mobileMenu .page-link {
+    display: block; }
+
+.menu-open {
+  overflow: hidden; }
+
 .site-nav {
-  float: right; }
+  float: right;
+  padding: 1.5rem; }
+  @media (max-width: 620px) {
+    .site-nav {
+      display: none; } }
 
 #videoContainer {
   position: relative;
@@ -283,6 +324,12 @@ select:-webkit-autofill {
       #videoContainer iframe {
         width: 300%;
         left: -100%; } }
+  @media (max-width: 620px) {
+    #videoContainer {
+      background: url("/assets/images/mobile-hero.jpg");
+      background-size: cover; }
+      #videoContainer iframe {
+        display: none; } }
 
 .bioContainer {
   text-align: center; }
@@ -350,19 +397,19 @@ select:-webkit-autofill {
   filter: none; }
 
 .circlePhoto-kikunaga {
-  background-image: url("./assets/images/Kikunaga.jpg");
+  background-image: url("/assets/images/Kikunaga.jpg");
   background-size: cover; }
 
 .circlePhoto-zau {
-  background-image: url("./assets/images/Zau.jpg");
+  background-image: url("/assets/images/Zau.jpg");
   background-size: cover; }
 
 .circlePhoto-vahl {
-  background-image: url("./assets/images/vahl.jpg");
+  background-image: url("/assets/images/vahl.jpg");
   background-size: cover; }
 
 .circlePhoto-schultzel {
-  background-image: url("./assets/images/schultzel.jpg");
+  background-image: url("/assets/images/schultzel.jpg");
   background-size: cover; }
 
 .practiceDetails p {
@@ -478,7 +525,19 @@ button {
     background-color: transparent; }
 
 .menu-icon {
-  display: none; }
+  display: none;
+  color: #ffffff;
+  background: #333333; }
+  .menu-icon:hover {
+    cursor: pointer; }
+  .menu-icon svg {
+    position: relative;
+    top: 1px;
+    margin-right: 5px; }
+  @media (max-width: 620px) {
+    .menu-icon {
+      display: inline-block;
+      padding: 15px; } }
 
 /*
 
@@ -777,7 +836,7 @@ Styleguide 1.1
   .grid > *.column--heavy {
     flex-grow: 8; }
 
-@media (max-width: 599px) {
+@media (max-width: 620px) {
   .grid--medium {
     display: block; }
 
