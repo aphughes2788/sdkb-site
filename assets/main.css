@@ -316,6 +316,11 @@ select:-webkit-autofill {
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
     transition: opacity 0.5s; }
+    @media (max-width: 620px) {
+      #videoContainer iframe {
+        height: auto;
+        top: auto;
+        left: auto; } }
     @media (min-aspect-ratio: 16 / 9) {
       #videoContainer iframe {
         height: 300%;
