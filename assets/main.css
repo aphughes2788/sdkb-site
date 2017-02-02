@@ -326,7 +326,7 @@ select:-webkit-autofill {
         left: -100%; } }
   @media (max-width: 620px) {
     #videoContainer {
-      background: url("/assets/images/mobile-hero.jpg");
+      background: url("/sdkb-site/assets/images/mobile-hero.jpg");
       background-size: cover; }
       #videoContainer iframe {
         display: none; } }
@@ -397,19 +397,19 @@ select:-webkit-autofill {
   filter: none; }
 
 .circlePhoto-kikunaga {
-  background-image: url("/assets/images/Kikunaga.jpg");
+  background-image: url("/sdkb-site/assets/images/Kikunaga.jpg");
   background-size: cover; }
 
 .circlePhoto-zau {
-  background-image: url("/assets/images/Zau.jpg");
+  background-image: url("/sdkb-site/assets/images/Zau.jpg");
   background-size: cover; }
 
 .circlePhoto-vahl {
-  background-image: url("/assets/images/vahl.jpg");
+  background-image: url("/sdkb-site/assets/images/vahl.jpg");
   background-size: cover; }
 
 .circlePhoto-schultzel {
-  background-image: url("/assets/images/schultzel.jpg");
+  background-image: url("/sdkb-site/assets/images/schultzel.jpg");
   background-size: cover; }
 
 .practiceDetails p {
