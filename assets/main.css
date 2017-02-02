@@ -305,7 +305,8 @@ select:-webkit-autofill {
     #videoContainer .sdkbTitle h1 {
       border-top: 1px solid white;
       border-bottom: 1px solid white;
-      display: inline-block; }
+      display: inline-block;
+      color: white;}
   #videoContainer .headerButton {
     position: absolute;
     left: 50%;
