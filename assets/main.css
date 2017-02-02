@@ -289,6 +289,9 @@ select:-webkit-autofill {
   -webkit-transition: background 0.5s;
   -moz-transition: background 0.5s;
   transition: background 0.5s; }
+  @media (max-width: 620px) {
+    #videoContainer {
+      width: auto; } }
   #videoContainer .sdkbTitle {
     z-index: 100;
     position: absolute;
@@ -318,9 +321,9 @@ select:-webkit-autofill {
     transition: opacity 0.5s; }
     @media (max-width: 620px) {
       #videoContainer iframe {
-        height: auto !important;
-        top: auto !important;
-        left: auto !important; } }
+        height: auto;
+        top: auto;
+        left: auto; } }
     @media (min-aspect-ratio: 16 / 9) {
       #videoContainer iframe {
         height: 300%;
