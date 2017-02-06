@@ -250,7 +250,7 @@ select:-webkit-autofill {
     .site-header {
       width: auto; } }
   .site-header.nav-scrolled {
-    background: #333;
+    background: #111111;
     transition: all 1s; }
   @media (max-width: 620px) {
     .site-header {
