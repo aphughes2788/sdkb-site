@@ -494,16 +494,16 @@ button {
   button:focus, .btn:hover, [type=button]:hover,
   [type=submit]:hover,
   button:hover {
-    background-color: #e528b0;
+    background-color: #559748;
     color: #ffffff; }
   .btn:focus, [type=button]:focus,
   [type=submit]:focus,
   button:focus {
-    outline: 0.1rem dotted #7d7d7e; }
+    outline: 0.1rem dotted #559748; }
   .btn:active, [type=button]:active,
   [type=submit]:active,
   button:active {
-    background-color: #E83FB8; }
+    background-color: #559748; }
 
 .btn-block {
   display: block; }
