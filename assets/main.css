@@ -397,8 +397,6 @@ select:-webkit-autofill {
   -ms-filter: none;
   filter: none;
   transition: all .25s;
-  width: 90%;
-  padding-top: 90%;
   opacity: .1; }
   .circlePhoto-selected:hover {
     cursor: default; }
