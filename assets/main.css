@@ -258,13 +258,12 @@ select:-webkit-autofill {
       top: 2rem; } }
 
 .mobileMenu {
-  list-style: none;
-  color: white;
-  font-size: 3rem;
-  padding-top: 50px;
-  margin-bottom: 20px;
-  padding-right: 30px;
-  line-height: 36px;
+  position: fixed;
+  left: -1000px;
+  height: 100vh;
+  width: 50%;
+  z-index: 200;
+  background: black;
   transition: all .5s; }
   .mobileMenu.mobileMenu-show {
     left: 0;
@@ -272,7 +271,7 @@ select:-webkit-autofill {
   .mobileMenu .mobileNav {
     list-style: none;
     color: white;
-    font-size: 30px;
+    font-size: 6vw;
     padding-top: 50px;
     margin-bottom: 20px;}
   .mobileMenu .page-link {
