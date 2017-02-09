@@ -257,7 +257,7 @@ select:-webkit-autofill {
     .site-header {
       top: 2rem; } }
   @media (max-width: 620px) {
-    .fullDescription {
+    .grid.grid--medium.fullDescription {
       display: none;
     }
   }
