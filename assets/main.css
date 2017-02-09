@@ -280,6 +280,7 @@ select:-webkit-autofill {
 
 .mobileNav li {
   margin-bottom: 20px;
+  line-height: 36px;
 }
 
 .menu-open {
