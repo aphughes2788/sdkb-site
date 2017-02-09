@@ -256,6 +256,21 @@ select:-webkit-autofill {
   @media (max-width: 620px) {
     .site-header {
       top: 2rem; } }
+  @media (max-width: 620px) {
+    .fullDescription {
+      display: none;
+    }
+  }
+
+  .mobileDescription {
+    display: none;
+  }
+
+  @media (max-width: 620px) {
+    .mobileDescription {
+      display: block;
+    }
+  }
 
 .mobileMenu {
   position: fixed;
