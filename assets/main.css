@@ -364,7 +364,8 @@ select:-webkit-autofill {
   transition: all .5s; }
 
 .fullDescription {
-  margin-top: 7rem; }
+  margin-top: 7rem;
+  margin-bottom: 2.4rem; }
 
 .circlePhoto {
   height: auto;
@@ -886,7 +887,7 @@ Styleguide 1.2
 */
 .wrapper {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1080px;
   padding: 4.8rem 2rem; }
 
 .wrapper-large {
