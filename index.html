@@ -147,7 +147,7 @@ event.target.setVolume(0);
 	<h2 class="text-center">Senseis</h2>
 	<div class="senseisContainer">
 		<div class="grid grid--medium">
-			
+			<div class="circlePhotos">
 			<div class="circlePhotoContainer">
 				<div class="circlePhoto circlePhoto-kikunaga circlePhoto-selected"></div>
 			</div>
@@ -179,7 +179,7 @@ event.target.setVolume(0);
 			<div class="circlePhotoContainer">
 				<div class="circlePhoto"></div>
 			</div>
-		
+		</div>
 			<div class="mobileDescription">
 				<div class="mobileDescriptionsContainer">
 					<p id="kikunaga-description" class="senseiDescription senseiDescription-selected">Henry is a sensei. Henry is 5 dan.</p>
@@ -288,12 +288,9 @@ event.target.setVolume(0);
 
 	<script type="text/javascript">
 		$(document).ready(function(){
-
 			// var heroVideo =  $('#hero-video'); 
 			// heroVideo.mute();
-
 			var imageBackgrounds = 'circlePhoto-kikunaga circlePhoto-zau circlePhoto-schultzel circlePhoto-vahl';
-
 			$('.circlePhoto').click(function(){
 				$(this).addClass('circlePhoto-selected').parent().siblings().children().removeClass('circlePhoto-selected');
 			});
@@ -302,7 +299,6 @@ event.target.setVolume(0);
 				$('.circlePhoto-showcase').removeClass(imageBackgrounds).addClass('circlePhoto-kikunaga');
 				$('.senseiDescription').siblings().removeClass('senseiDescription-selected');
 				$('#kikunaga-description').addClass('senseiDescription-selected');
-
 			});
 			$('.circlePhoto.circlePhoto-zau').click(function() {
 				$('.circlePhoto-showcase').removeClass(imageBackgrounds).addClass('circlePhoto-zau');
@@ -319,26 +315,20 @@ event.target.setVolume(0);
 				$('.senseiDescription').siblings().removeClass('senseiDescription-selected');
 				$('#schultzel-description').addClass('senseiDescription-selected');
 			});
-
 			$('.menu-icon').click(function(){
 				$('.mobileMenu').addClass('mobileMenu-show');
 				$('body').addClass('menu-open');
 			});
-
-
 			function closeMenu(){
 				$('.mobileMenu').removeClass('mobileMenu-show');
 				$('body').removeClass('menu-open');  
 			}
-
 			$(document.body).click( function(e) {
 				closeMenu();
 			});
-
 			$(".menu-icon").click( function(e) {
 				e.stopPropagation();
 			});
-
 			
 			$(window).scroll(function() {
 				var scroll = $(window).scrollTop();
@@ -350,10 +340,8 @@ event.target.setVolume(0);
 				else {
 					$('.site-header').removeClass('nav-scrolled');
 				}
-
 			});
 		});
-
 </script>
       </div>
     </main>
