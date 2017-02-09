@@ -258,9 +258,9 @@ select:-webkit-autofill {
       top: 2rem; } }
 
 .mobileMenu {
-  position: absolute;
+  position: fixed;
   left: -1000px;
-  height: 100%;
+  height: 100vh;
   width: 50%;
   z-index: 200;
   background: black;
@@ -270,7 +270,10 @@ select:-webkit-autofill {
     transition: all .5s; }
   .mobileMenu .mobileNav {
     list-style: none;
-    color: white; }
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 20px;}
   .mobileMenu .page-link {
     display: block; }
 
