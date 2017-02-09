@@ -277,6 +277,10 @@ select:-webkit-autofill {
   .mobileMenu .page-link {
     display: block; }
 
+.mobileMenu li {
+  margin-bottom: 20px;
+}
+
 .menu-open {
   overflow: hidden; }
 
