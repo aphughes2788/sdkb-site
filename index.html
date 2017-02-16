@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @aphughes2788
+ Sign out
+ Watch 0
+  Star 0
+  Fork 0 aphughes2788/sdkb-site
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Branch: gh-pages Find file Copy pathsdkb-site/index.html
+f3bddf9  3 hours ago
+@aphughes2788 aphughes2788 Update index.html
+1 contributor
+RawBlameHistory     
+396 lines (339 sloc)  15.6 KB
 <!DOCTYPE html>
 <html lang="en">
 
@@ -237,10 +255,10 @@ event.target.setVolume(0);
 				</div>
 				<div class="column--heavy">
 					<div class="senseiDescriptionContainer">
-						<p id="kikunaga-description" class="senseiDescription">Henry is a sensei. Henry is 5 dan.</p>
-						<p id="vahl-description" class="senseiDescription">Jim is a sensei. Jim is 4 dan.</p>
-						<p id="zau-description" class="senseiDescription">Susan is a sensei. Susan is 4 dan.</p>
-						<p id="schultzel-description" class="senseiDescription">Matt Schultzel - 4 Dan<br>Started kendo with Yamamoto Sensei (4dan) at UCSD and through SDKB, moved to Berkeley, California under Miyata-Sensei (8Dan-hanshi), then to Long Beach kendo dojo under Hori-Sensei (7dan).  Off to New York where he joined New York Kenshinkai under Umemura-Sensei (6dan) and Carroll-Sensei (6dan). During this time Schultzel-sensei had the opportunity to go to Japan to practice kendo and practice with numerous visiting kenshi from Japan.  He then spent one year in Houston where he organized a visit from the Eiga-sensei brothers (8dan) and taught kendo with Houston Kendo Kyokai.  Finally in 2016, he moved back to San Diego to rejoin SDKB.</p>
+						<p id="kikunaga-description-mobile" class="senseiDescription">Henry is a sensei. Henry is 5 dan.</p>
+						<p id="vahl-description-mobile" class="senseiDescription">Jim is a sensei. Jim is 4 dan.</p>
+						<p id="zau-description-mobile" class="senseiDescription">Susan is a sensei. Susan is 4 dan.</p>
+						<p id="schultzel-description-mobile" class="senseiDescription">Matt Schultzel - 4 Dan<br>Started kendo with Yamamoto Sensei (4dan) at UCSD and through SDKB, moved to Berkeley, California under Miyata-Sensei (8Dan-hanshi), then to Long Beach kendo dojo under Hori-Sensei (7dan).  Off to New York where he joined New York Kenshinkai under Umemura-Sensei (6dan) and Carroll-Sensei (6dan). During this time Schultzel-sensei had the opportunity to go to Japan to practice kendo and practice with numerous visiting kenshi from Japan.  He then spent one year in Houston where he organized a visit from the Eiga-sensei brothers (8dan) and taught kendo with Houston Kendo Kyokai.  Finally in 2016, he moved back to San Diego to rejoin SDKB.</p>
 					</div>
 				</div>
 			</div>
@@ -342,22 +360,30 @@ event.target.setVolume(0);
 			$('.circlePhoto.circlePhoto-kikunaga').click(function() {
 				$('.circlePhoto-showcase').removeClass(imageBackgrounds).addClass('circlePhoto-kikunaga');
 				$('.senseiDescription').siblings().removeClass('senseiDescription-selected');
+				$('#senseisMobile .senseiDescription').siblings().removeClass('senseiDescription-selected');
 				$('#kikunaga-description').addClass('senseiDescription-selected');
+				$('#kikunaga-description-mobile').addClass('senseiDescription-selected');
 			});
 			$('.circlePhoto.circlePhoto-zau').click(function() {
 				$('.circlePhoto-showcase').removeClass(imageBackgrounds).addClass('circlePhoto-zau');
 				$('.senseiDescription').siblings().removeClass('senseiDescription-selected');
+				$('#senseisMobile .senseiDescription').siblings().removeClass('senseiDescription-selected');
 				$('#zau-description').addClass('senseiDescription-selected');
+				$('#zau-description-mobile').addClass('senseiDescription-selected');
 			});
 			$('.circlePhoto.circlePhoto-vahl').click(function() {
 				$('.circlePhoto-showcase').removeClass(imageBackgrounds).addClass('circlePhoto-vahl');
 				$('.senseiDescription').siblings().removeClass('senseiDescription-selected');
+				$('#senseisMobile .senseiDescription').siblings().removeClass('senseiDescription-selected');
 				$('#vahl-description').addClass('senseiDescription-selected');
+				$('#vahl-description-mobile').addClass('senseiDescription-selected');
 			});
 			$('.circlePhoto.circlePhoto-schultzel').click(function() {
 				$('.circlePhoto-showcase').removeClass(imageBackgrounds).addClass('circlePhoto-schultzel');
 				$('.senseiDescription').siblings().removeClass('senseiDescription-selected');
+				$('#senseisMobile .senseiDescription').siblings().removeClass('senseiDescription-selected');
 				$('#schultzel-description').addClass('senseiDescription-selected');
+				$('#schultzel-description-mobile').addClass('senseiDescription-selected');
 			});
 			$('.menu-icon').click(function(){
 				$('.mobileMenu').addClass('mobileMenu-show');
@@ -393,3 +419,5 @@ event.target.setVolume(0);
   </body>
 
 </html>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
