@@ -386,9 +386,26 @@ select:-webkit-autofill {
   opacity: 1;
   transition: all .5s; }
 
+#senseisMobile {
+  display: none;
+}
+
 .fullDescription {
   margin-top: 7rem;
   margin-bottom: 2.4rem; }
+  @media(max-width: 620px) {
+    .fullDescription {
+      margin-right: 0;
+      padding-right: 0;
+      padding-left: 0;
+    }
+    #senseisMobile {
+      display: block;
+    }
+    #senseis {
+      display: none;
+    }
+  }
 
 .circlePhoto {
   height: auto;
