@@ -270,10 +270,6 @@ select:-webkit-autofill {
     .mobileDescription {
       display: block;
     }
-    .circlePhoto {
-      width: 50%;
-      padding-top: 50%;
-    }
   }
 
 .mobileMenu {
@@ -406,6 +402,12 @@ select:-webkit-autofill {
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%); }
+  @media(max-width: 620px) {
+    .circlePhoto {
+      width: 50%;
+      padding-top: 50%;
+    }
+  }
   .circlePhoto:hover {
     cursor: pointer;
     -webkit-filter: none;
