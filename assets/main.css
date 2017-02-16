@@ -270,6 +270,10 @@ select:-webkit-autofill {
     .mobileDescription {
       display: block;
     }
+    .circlePhotos {
+      width: 50%;
+      padding-top: 50%;
+    }
   }
 
 .mobileMenu {
