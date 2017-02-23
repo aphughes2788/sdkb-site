@@ -373,7 +373,8 @@ select:-webkit-autofill {
         display: none;
         display: none;
         width: auto;
-        left: auto; } }
+        left: auto;
+        position: static; } }
 
 .bioContainer {
   text-align: center; }
