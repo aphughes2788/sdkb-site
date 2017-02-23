@@ -385,19 +385,19 @@ select:-webkit-autofill {
   display: none;
 }
 
-.readMoreSection .readMore {
+.readMoreToggle .readMore {
   display: block;
 }
 
-.readMoreSection .readLess {
+.readMoreToggle .readLess {
   display: none;
 }
 
-.readMoreSection.readMoreSectionExpanded .readLess {
+.readMoreSection.readMoreSectionExpanded +.readMoreToggle .readLess {
   display: block;
 }
 
-.readMoreSection.readMoreSectionExpanded  .readMore {
+.readMoreSection.readMoreSectionExpanded +.readMoreToggle  .readMore {
   display: none;
 }
 
