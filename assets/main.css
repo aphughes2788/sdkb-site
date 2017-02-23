@@ -385,8 +385,15 @@ select:-webkit-autofill {
   display: none;
 }
 
+.readMoreToggle {
+  text-align: center;
+}
+
+
 .readMoreToggle .readMore {
-  display: block;
+  display: inline-block;
+  background: #11b4fd;
+  padding: 5px;
 }
 
 .readMoreToggle .readLess {
@@ -394,7 +401,9 @@ select:-webkit-autofill {
 }
 
 .readMoreSection.readMoreSectionExpanded +.readMoreToggle .readLess {
-  display: block;
+  display: inline-block;
+  background: #11b4fd;
+  padding: 5px;
 }
 
 .readMoreSection.readMoreSectionExpanded +.readMoreToggle  .readMore {
