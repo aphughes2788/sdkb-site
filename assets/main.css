@@ -370,7 +370,10 @@ select:-webkit-autofill {
       background: url("/sdkb-site/assets/images/mobile-hero.jpg");
       background-size: cover; }
       #videoContainer iframe {
-        display: none; } }
+        display: none;
+        display: none;
+        width: auto;
+        left: auto; } }
 
 .bioContainer {
   text-align: center; }
