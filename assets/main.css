@@ -393,17 +393,19 @@ select:-webkit-autofill {
 .readMoreToggle .readMore {
   display: inline-block;
   background: #11b4fd;
-  padding: 5px;
+  padding: 10px;
+  color: white;
 }
 
 .readMoreToggle .readLess {
   display: none;
+  background: #11b4fd;
+  padding: 10px;
+  color: white;
 }
 
 .readMoreSection.readMoreSectionExpanded +.readMoreToggle .readLess {
   display: inline-block;
-  background: #11b4fd;
-  padding: 5px;
 }
 
 .readMoreSection.readMoreSectionExpanded +.readMoreToggle  .readMore {
