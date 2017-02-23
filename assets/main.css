@@ -324,7 +324,9 @@ select:-webkit-autofill {
   @media (max-width: 620px) {
     #videoContainer {
       width: auto;
-      min-height: 100vh; } }
+      min-height: 100vh;
+      height: auto;
+      overflow: auto; } }
   #videoContainer .sdkbTitle {
     z-index: 100;
     position: absolute;
