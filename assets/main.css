@@ -261,6 +261,11 @@ select:-webkit-autofill {
       display: none;
     }
   }
+  @media (max-width: 620px) {
+   .site-header.nav-scrolled {
+     background: initial;
+     transition: none; }
+  }
 
   .mobileDescription {
     display: none;
