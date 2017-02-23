@@ -381,6 +381,31 @@ select:-webkit-autofill {
   }
 }
 
+.readMoreSection {
+  display: none;
+}
+
+.readMoreSection .readMore {
+  display: block;
+}
+
+.readMoreSection .readLess {
+  display: none;
+}
+
+.readMoreSection.readMoreSectionExpanded .readLess {
+  display: block;
+}
+
+.readMoreSection.readMoreSectionExpanded  .readMore {
+  display: none;
+}
+
+.readMoreSection.readMoreSectionExpanded {
+  display: block;
+}
+
+
 .senseiDescription {
   opacity: 0;
   position: absolute;
