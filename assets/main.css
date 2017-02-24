@@ -322,6 +322,7 @@ select:-webkit-autofill {
 @media(max-width: 620px) {
   .video-top {
     height: 100vh;
+    transition: all .5s;
   }
 }
 
@@ -338,6 +339,7 @@ select:-webkit-autofill {
     #videoContainer {
       width: auto;
       height: 100vh;
+      transition: all .5s;
       overflow: auto; } }
   #videoContainer .sdkbTitle {
     z-index: 100;
