@@ -255,7 +255,7 @@ select:-webkit-autofill {
     transition: all 1s; }
   @media (max-width: 620px) {
     .site-header {
-      top: 2rem; } }
+      top: 0; } }
   @media (max-width: 620px) {
     .grid.grid--medium.fullDescription {
       display: none;
