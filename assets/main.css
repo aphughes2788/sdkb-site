@@ -669,7 +669,7 @@ button {
 .menu-icon {
   display: none;
   color: #ffffff;
-  background: #333333; }
+  background: #111111; }
   .menu-icon:hover {
     cursor: pointer; }
   .menu-icon svg {
