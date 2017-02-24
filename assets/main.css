@@ -416,6 +416,14 @@ select:-webkit-autofill {
   color: white;
 }
 
+.readMoreToggle .readMore:hover {
+  cursor: pointer;
+}
+
+.readMoreToggle .readLess:hover {
+  cursor: pointer;
+}
+
 .readMoreToggle .readLess {
   display: none;
   background: #11b4fd;
@@ -476,6 +484,7 @@ select:-webkit-autofill {
   border-radius: 50%;
   display: block;
   margin: auto;
+  background-position: 50% 50%;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -o-filter: grayscale(100%);
@@ -547,6 +556,18 @@ select:-webkit-autofill {
     margin-bottom: 2rem;
     width: 100%;
     padding-left: 5px; }
+
+.contactForm .nameField {
+  height: 40px;
+}
+
+.contactForm .emailField {
+  height: 40px;
+}
+
+.contactForm .messageField {
+  height: 100px;
+}
 
 .socialMedia img {
   width: 100px;
