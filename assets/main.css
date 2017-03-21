@@ -549,6 +549,10 @@ select:-webkit-autofill {
   background-image: url("/sdkb-site/assets/images/Schultzel.jpg");
   background-size: cover; }
 
+.circlePhoto-cho {
+  background-image: url("/sdkb-site/assets/images/Cho.jpg");
+  background-size: cover; }
+
 .practiceDetails p {
   padding-bottom: .5rem; }
 .practiceDetails + .practiceDetails {
