@@ -553,6 +553,14 @@ select:-webkit-autofill {
   background-image: url("/sdkb-site/assets/images/Cho.jpg");
   background-size: cover; }
 
+.circlePhoto-yoon {
+  background-image: url("/sdkb-site/assets/images/Yoon.jpg");
+  background-size: cover; }
+
+.circlePhoto-liu {
+  background-image: url("/sdkb-site/assets/images/Liu.jpg");
+  background-size: cover; }
+
 .practiceDetails p {
   padding-bottom: .5rem; }
 .practiceDetails + .practiceDetails {
