@@ -566,6 +566,12 @@ select:-webkit-autofill {
 .practiceDetails + .practiceDetails {
   margin-top: 2rem; }
 
+.aboutPhoto {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 .contactForm {
   width: 100%; }
   .contactForm input[type="email"],
