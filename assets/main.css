@@ -570,6 +570,7 @@ select:-webkit-autofill {
   display: block;
   margin: auto;
   margin-bottom: 20px;
+  max-width: 350px;
 }
 
 .contactForm {
