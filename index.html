@@ -365,11 +365,9 @@
 				$(this).addClass('circlePhoto-selected').parent().siblings().children().removeClass('circlePhoto-selected');
 			});
 
-			function checkPosition() {
-				if (window.matchMedia('(max-width: 620px)').matches) {
-        $('iframe').remove();
-      } else {
-        //...
+			function checkSize(){
+				if ($(".menu-icon").css("display") == "inline-block" ){
+        $("iframe").remove();
       }
     }
 
