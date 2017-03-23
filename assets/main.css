@@ -255,7 +255,8 @@ select:-webkit-autofill {
     transition: all 1s; }
   @media (max-width: 620px) {
     .site-header {
-      top: 0; } }
+      top: 0;
+      z-index: 200; } }
   @media (max-width: 620px) {
     .grid.grid--medium.fullDescription {
       display: none;
@@ -384,7 +385,7 @@ select:-webkit-autofill {
         left: -100%; } }
   @media (max-width: 620px) {
     #videoContainer {
-      background: url("/sdkb-site/assets/images/mobile-hero.jpg");
+      background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/sdkb-site/assets/images/mobile-hero.jpg");
       background-size: cover; }
       #videoContainer iframe {
         display: none;
@@ -571,6 +572,11 @@ select:-webkit-autofill {
   margin: auto;
   margin-bottom: 20px;
   max-width: 350px;
+}
+@media(max-width: 620px) {
+  .aboutPhoto {
+    width: 100%;
+  }
 }
 
 .contactForm {
