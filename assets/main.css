@@ -110,7 +110,8 @@ pre {
     padding: 0; }
 
 a:link {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #11b4fd; }
 
 a:hover,
 a:focus {
