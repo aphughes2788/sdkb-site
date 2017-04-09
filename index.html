@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/sdkb-site/assets/main.css">
     <script src="/sdkb-site/assets/jquery-3.1.1.min.js"></script>
     <script src="/sdkb-site/assets/jquery.fitvids.js"></script>
+    <script src="/sdkb-site/assets/fastclick.js"></script>
     <link rel="canonical" href="http://localhost:4000/sdkb-site/">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="/sdkb-site/feed.xml">
@@ -357,6 +358,11 @@ event.target.setVolume(0);
 
 
     <script type="text/javascript">
+        
+        $(function() {
+	        FastClick.attach(document.body);
+        });
+        
         $(document).ready(function(){
             // var heroVideo =  $('#hero-video'); 
             // heroVideo.mute();
