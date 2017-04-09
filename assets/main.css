@@ -998,11 +998,16 @@ Styleguide 1.1
 .grid {
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex; }
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+ }
 
 .grid > * {
   flex: 1;
   flex-grow: 4;
+  min-width: 0;
+  min-height: 0;
   padding-left: 1rem;
   padding-right: 1rem; }
   .grid > *:first-child {
