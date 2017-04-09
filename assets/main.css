@@ -999,14 +999,14 @@ Styleguide 1.1
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  min-width: 0;
+  min-width: 0.1vh;
   min-height: 0;
  }
 
 .grid > * {
   flex: 1;
   flex-grow: 4;
-  min-width: 0;
+  min-width: 0.1vh;
   min-height: 0;
   padding-left: 1rem;
   padding-right: 1rem; }
