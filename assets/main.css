@@ -458,6 +458,7 @@ select:-webkit-autofill {
 
 .senseiDescription {
   opacity: 0;
+  position: absolute;
   text-align: center;
   transition: all .5s; }
 
