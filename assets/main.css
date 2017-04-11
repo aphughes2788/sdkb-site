@@ -531,6 +531,21 @@ select:-webkit-autofill {
   .circlePhoto-selected:hover {
     cursor: default; }
 
+@media(max-width: 700px) {
+  .circlePhoto-selected {
+    transition: none;
+  }
+  .senseiDescription {
+    transition: none;
+  }
+  .senseiDescription-selected {
+    transition: none;
+  }
+  .circlePhoto {
+    filter: none;
+  }
+}
+
 .circlePhoto-showcase {
   -webkit-filter: none;
   -moz-filter: none;
