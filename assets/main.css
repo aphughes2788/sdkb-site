@@ -1037,12 +1037,12 @@ Styleguide 1.1
   min-width: 0;
   min-height: 0;
   flex: none;
-  overflow: auto;
+  overflow: hidden;
  }
 
- .grid::-webkit-scrollbar {
+/* .grid::-webkit-scrollbar {
   height: 0;
- }
+ }*/
 
 .grid > * {
   flex: 1;
