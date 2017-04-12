@@ -1057,9 +1057,9 @@ Styleguide 1.1
   padding-left: 1rem;
   padding-right: 1rem; }
   .grid > *:first-child {
-    margin-left: -1rem; }
+    /*margin-left: -1rem;*/ }
   .grid > *:last-child {
-    margin-right: -1rem; }
+    /*margin-right: -1rem;*/ }
   .grid > *.column--light {
     flex-grow: 2; }
   .grid > *.column--heavy {
