@@ -1037,7 +1037,6 @@ Styleguide 1.1
   min-width: 0;
   min-height: 0;
   flex: none;
-  overflow: hidden;
  }
 
 /* .grid::-webkit-scrollbar {
