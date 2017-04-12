@@ -481,8 +481,8 @@ select:-webkit-autofill {
   min-width: 0;
   display: block;
   /* ADDED */
-  position: absolute;
-  top: 0;
+  /*position: absolute;*/
+  /*top: 0;*/
   flex: none; }
 
 #senseisMobile {
