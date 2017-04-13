@@ -18,6 +18,7 @@
 
 </head>
 
+
 <body onload="setTimeout(function() {window.scrollTo(0, 1)}, 100)">
 
     <header class="site-header" role="banner">
@@ -365,11 +366,9 @@ event.target.setVolume(0);
             $('.circlePhoto').click(function(){
                 $(this).addClass('circlePhoto-selected').parent().siblings().children().removeClass('circlePhoto-selected');
             });
-
             if ($(".menu-icon").css("display") == "inline-block" ){
                 $("#player").remove();
             }
-
             $('.circlePhoto.circlePhoto-kikunaga').click(function() {
                 $('.circlePhoto-showcase').removeClass(imageBackgrounds).addClass('circlePhoto-kikunaga');
                 $('.senseiDescription').siblings().removeClass('senseiDescription-selected');
@@ -440,7 +439,6 @@ event.target.setVolume(0);
             $(".menu-icon").click( function(e) {
                 e.stopPropagation();
             });
-
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();
                 var os = $('#about').offset().top -1000;
@@ -452,16 +450,12 @@ event.target.setVolume(0);
                     $('.site-header').removeClass('nav-scrolled');
                 }
             });
-
             $('.readMore').click(function () {
                 $('.readMoreSection').addClass('readMoreSectionExpanded');
             });
-
             $('.readLess').click(function(){
                 $('.readMoreSection').removeClass('readMoreSectionExpanded');
             });
-
-
         });
     </script>
 </div>
