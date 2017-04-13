@@ -251,22 +251,22 @@ select:-webkit-autofill {
   float: right;
   width: 100%;
   transition: all 1s; }
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     .site-header {
       width: auto; } }
   .site-header.nav-scrolled {
     background: #111111;
     transition: all 1s; }
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     .site-header {
       top: 0;
       z-index: 200; } }
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     .grid.grid--medium.fullDescription {
       display: none;
     }
   }
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
    .site-header.nav-scrolled {
      background: initial;
      transition: none; }
@@ -276,13 +276,13 @@ select:-webkit-autofill {
     display: none;
   }
 
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     .mobileDescription {
       display: block;
     }
   }
 
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     body {
       height: 100%;
       overflow: scroll;
@@ -320,11 +320,11 @@ select:-webkit-autofill {
 .site-nav {
   float: right;
   padding: 1.5rem; }
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     .site-nav {
       display: none; } }
 
-@media(max-width: 700px), (max-device-width: 750px) {
+@media(max-width: 700px) {
   .video-top {
     height: 100vh;
     transition: all .5s;
@@ -340,7 +340,7 @@ select:-webkit-autofill {
   -webkit-transition: background 0.5s;
   -moz-transition: background 0.5s;
   transition: background 0.5s; }
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     #videoContainer {
       width: auto;
       height: 100vh;
@@ -374,7 +374,7 @@ select:-webkit-autofill {
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
     transition: opacity 0.5s; }
-    @media (max-width: 700px), (max-device-width: 750px) {
+    @media (max-width: 700px) {
       #videoContainer iframe {
         height: auto;
         top: auto;
@@ -387,7 +387,7 @@ select:-webkit-autofill {
       #videoContainer iframe {
         width: 300%;
         left: -100%; } }
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     #videoContainer {
       background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/sdkb-site/assets/images/mobile-hero.jpg");
       background-size: cover; }
@@ -410,7 +410,7 @@ select:-webkit-autofill {
   min-width: 0;
   flex: none;
    }
-@media(max-width: 700px), (max-device-width: 750px) {
+@media(max-width: 700px) {
   .senseiDescriptionContainer {
     height: auto;
     min-height: 0;
@@ -492,7 +492,7 @@ select:-webkit-autofill {
 .fullDescription {
   margin-top: 7rem;
   margin-bottom: 2.4rem; }
-  @media(max-width: 700px), (max-device-width: 750px) {
+  @media(max-width: 700px) {
     .column--heavy.fullDescription {
       margin-right: 0;
       padding-right: 0;
@@ -524,7 +524,7 @@ select:-webkit-autofill {
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%); }
-  @media(max-width: 700px), (max-device-width: 750px) {
+  @media(max-width: 700px) {
     .circlePhoto {
       width: 50%;
       padding-top: 50%;
@@ -560,7 +560,7 @@ select:-webkit-autofill {
   .circlePhoto-selected:hover {
     cursor: default; }
 
-@media(max-width: 700px), (max-device-width: 750px) {
+@media(max-width: 700px) {
   .circlePhoto-selected {
     transition: none;
   }
@@ -622,7 +622,7 @@ select:-webkit-autofill {
   margin-bottom: 20px;
   max-width: 350px;
 }
-@media(max-width: 700px), (max-device-width: 750px) {
+@media(max-width: 700px) {
   .aboutPhoto {
     width: 100%;
   }
@@ -751,7 +751,7 @@ button {
     position: relative;
     top: 1px;
     margin-right: 5px; }
-  @media (max-width: 700px), (max-device-width: 750px) {
+  @media (max-width: 700px) {
     .menu-icon {
       display: inline-block;
       padding: 15px; } }
@@ -1032,7 +1032,7 @@ Styleguide 1.1
   .grid > *.column--heavy {
     flex-grow: 8; }
 
-@media (max-width: 700px), (max-device-width: 750px) {
+@media (max-width: 700px) {
   .grid--medium {
     display: block; }
 
