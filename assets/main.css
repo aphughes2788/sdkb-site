@@ -38,15 +38,6 @@ body {
   min-height: 100%;
   position: relative; }
 
-@viewport {
-  width: device-width;
-  initial-scale: 1;
-  zoom: 1;
-  min-zoom: 1;
-  max-zoom: 3;
-  user-zoom: fixed;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Avenir", "Avenir Next", "Helvetica Neue", "Segoe UI", "Verdana", sans-serif;
   font-weight: lighter;
@@ -260,22 +251,22 @@ select:-webkit-autofill {
   float: right;
   width: 100%;
   transition: all 1s; }
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     .site-header {
       width: auto; } }
   .site-header.nav-scrolled {
     background: #111111;
     transition: all 1s; }
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     .site-header {
       top: 0;
       z-index: 200; } }
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     .grid.grid--medium.fullDescription {
       display: none;
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
    .site-header.nav-scrolled {
      background: initial;
      transition: none; }
@@ -285,13 +276,13 @@ select:-webkit-autofill {
     display: none;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     .mobileDescription {
       display: block;
     }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     body {
       height: 100%;
       overflow: scroll;
@@ -329,11 +320,11 @@ select:-webkit-autofill {
 .site-nav {
   float: right;
   padding: 1.5rem; }
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     .site-nav {
       display: none; } }
 
-@media(max-width: 700px) {
+@media(max-width: 700px), (max-device-width: 750px) {
   .video-top {
     height: 100vh;
     transition: all .5s;
@@ -349,7 +340,7 @@ select:-webkit-autofill {
   -webkit-transition: background 0.5s;
   -moz-transition: background 0.5s;
   transition: background 0.5s; }
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     #videoContainer {
       width: auto;
       height: 100vh;
@@ -383,7 +374,7 @@ select:-webkit-autofill {
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
     transition: opacity 0.5s; }
-    @media (max-width: 700px) {
+    @media (max-width: 700px), (max-device-width: 750px) {
       #videoContainer iframe {
         height: auto;
         top: auto;
@@ -396,7 +387,7 @@ select:-webkit-autofill {
       #videoContainer iframe {
         width: 300%;
         left: -100%; } }
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     #videoContainer {
       background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("/sdkb-site/assets/images/mobile-hero.jpg");
       background-size: cover; }
@@ -419,7 +410,7 @@ select:-webkit-autofill {
   min-width: 0;
   flex: none;
    }
-@media(max-width: 700px) {
+@media(max-width: 700px), (max-device-width: 750px) {
   .senseiDescriptionContainer {
     height: auto;
     min-height: 0;
@@ -501,7 +492,7 @@ select:-webkit-autofill {
 .fullDescription {
   margin-top: 7rem;
   margin-bottom: 2.4rem; }
-  @media(max-width: 700px) {
+  @media(max-width: 700px), (max-device-width: 750px) {
     .column--heavy.fullDescription {
       margin-right: 0;
       padding-right: 0;
@@ -533,7 +524,7 @@ select:-webkit-autofill {
   -o-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%); }
-  @media(max-width: 700px) {
+  @media(max-width: 700px), (max-device-width: 750px) {
     .circlePhoto {
       width: 50%;
       padding-top: 50%;
@@ -569,7 +560,7 @@ select:-webkit-autofill {
   .circlePhoto-selected:hover {
     cursor: default; }
 
-@media(max-width: 700px) {
+@media(max-width: 700px), (max-device-width: 750px) {
   .circlePhoto-selected {
     transition: none;
   }
@@ -631,7 +622,7 @@ select:-webkit-autofill {
   margin-bottom: 20px;
   max-width: 350px;
 }
-@media(max-width: 700px) {
+@media(max-width: 700px), (max-device-width: 750px) {
   .aboutPhoto {
     width: 100%;
   }
@@ -666,19 +657,13 @@ select:-webkit-autofill {
   margin-right: 20px; }
 
 /*
-
 Buttons
-
 Buttons and their variations
-
 Markup:
 <a href="#" class="btn {{modifier_class}}">Button</a>
-
 .btn--secondary       - A link that's sized like a button
 .btn--link            - A link that's sized like a button
-
 Styleguide 2.0
-
 */
 .btn, [type=button],
 [type=submit],
@@ -766,15 +751,13 @@ button {
     position: relative;
     top: 1px;
     margin-right: 5px; }
-  @media (max-width: 700px) {
+  @media (max-width: 700px), (max-device-width: 750px) {
     .menu-icon {
       display: inline-block;
       padding: 15px; } }
 
 /*
-
 Forms
-
 Markup:
 <form>
   <label class="textfield">
@@ -809,9 +792,7 @@ Markup:
   <button>okay</button>
   <button>not okay</button>
 </form>
-
 Styleguide 3.0
-
 */
 .radio,
 .checkbox {
@@ -897,17 +878,13 @@ Styleguide 3.0
   outline: none; }
 
 /*
-
 Radio
-
 Markup:
 <label class="radio {{modifier_class}}">
   <input type="radio" />
   <span class="radio__label">Radio</span>
 </label>
-
 Styleguide 3.1
-
 */
 .radio:before,
 .radio__label:after {
@@ -925,17 +902,13 @@ Styleguide 3.1
   width: 10px; }
 
 /*
-
 Checkbox
-
 Markup:
 <label class="checkbox {{modifier_class}}">
   <input type="checkbox" />
   <span class="checkbox__label">Checkbox</span>
 </label>
-
 Styleguide 3.2
-
 */
 .checkbox:before,
 .checkbox__label:after {
@@ -949,9 +922,7 @@ Styleguide 3.2
   text-align: center; }
 
 /*
-
 Input and text areas
-
 Markup:
 <label class="textfield {{modifier_class}}">
   <input type="text" />
@@ -961,14 +932,10 @@ Markup:
   <textarea></textarea>
   <span class="textfield__label">Textarea</span>
 </label>
-
 Styleguide 3.3
-
 */
 /*
-
 Select
-
 Markup:
 <label class="select {{modifier_class}}">
   <select>
@@ -979,9 +946,7 @@ Markup:
   </select>
   <span class="select__label">Select Label</span>
 </label>
-
 Styleguide 3.4
-
 */
 .select:after {
   content: '';
@@ -1003,11 +968,8 @@ Styleguide 3.4
   color: #5a5a5b; }
 
 /*
-
 Grid
-
 Basic grid made using flexbox. By default, the grid is collapsed on small screens.
-
 Markup:
 <main class="grid {{modifier_class}}">
   <section class="">
@@ -1017,17 +979,12 @@ Markup:
     Cell 2
   </article>
 </main>
-
 .grid--medium           - Grid starts at medium sized screens
 .grid--large            - Grid starts at large and up screens
-
 Styleguide 1.0
-
 */
 /*
-
 Direct children of `.grid` are columns.
-
 Markup:
 <main class="grid">
   <section class="{{modifier_class}}">
@@ -1042,12 +999,9 @@ Markup:
     </div>
   </article>
 </main>
-
 .column--light           - Less important column
 .column--heavy           - More important column
-
 Styleguide 1.1
-
 */
 .grid {
   display: -ms-flexbox;
@@ -1078,7 +1032,7 @@ Styleguide 1.1
   .grid > *.column--heavy {
     flex-grow: 8; }
 
-@media (max-width: 700px) {
+@media (max-width: 700px), (max-device-width: 750px) {
   .grid--medium {
     display: block; }
 
@@ -1101,19 +1055,13 @@ Styleguide 1.1
     .grid--large > *:last-child {
       margin-right: 0; } }
 /*
-
 Wrappers
-
 Use wrappers when you need a content area that is a standardized width and centered on the page.
-
 Markup:
 <div class="wrapper {{modifier_class}}">Wrapper</div>
-
 .wrapper-small      - Small Wrapper
 .wrapper-large      - Large Wrapper
-
 Styleguide 1.2
-
 */
 .wrapper {
   margin: 0 auto;
@@ -1136,16 +1084,12 @@ Styleguide 1.2
   padding: 2.4rem 2rem; }
 
 /*
-
 Utilities
-
 These utility classes have one or two CSS properties that are meant to save you from creating several identical classes to do the same thing, like just centering some text.
-
 Markup:
 <div class="{{modifier_class}}" style="background-color: #ddd">
   Example Text
 </div>
-
 .disabled                - Disable an Element
 .smooth                  - Smoothed font rendering
 .clearfix                - Clear floats to keep the parent container in shape
@@ -1155,9 +1099,7 @@ Markup:
 .ta-left                 - text-align: left;
 .ta-center               - text-align: center;
 .ta-right                - text-align: right;
-
 Styleguide 4.0
-
 */
 .disabled, .radio [disabled],
 .checkbox [disabled],
@@ -1199,16 +1141,12 @@ button[disabled] {
   text-align: right; }
 
 /*
-
 Type Utilities
-
 These are specific typography related utilities
-
 Markup:
 <div class="type {{modifier_class}}">
   The quick brown fox jumps over the lazy dog.
 </div>
-
 .fs-small            - Smaller than the default font size
 .fs-base             - Exactly the default font size
 .fs-large            - Larger than the default font size
@@ -1216,9 +1154,7 @@ Markup:
 .fw-normal           - Changes the type to be 400 weight
 .fw-semibold         - Changes the type to be 600 weight
 .fw-bold             - Changes the type to be 700 weight
-
 Styleguide 4.1
-
 */
 .fs-small {
   font-size: 1.2rem; }
