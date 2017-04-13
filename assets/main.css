@@ -40,10 +40,11 @@ body {
 
 @viewport {
   width: device-width;
-    zoom: 1;
-    min-zoom: 1;
-    max-zoom: 3;
-    user-zoom: fixed;
+  initial-scale: 1;
+  zoom: 1;
+  min-zoom: 1;
+  max-zoom: 3;
+  user-zoom: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
