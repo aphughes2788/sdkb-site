@@ -328,7 +328,7 @@ select:-webkit-autofill {
   .video-top {
     height: 100vh;
     transition: all .5s;
-    max-height: 500px;
+    max-height: 800px;
   }
 }
 
@@ -345,7 +345,7 @@ select:-webkit-autofill {
     #videoContainer {
       width: auto;
       height: 100vh;
-      max-height: 500px;
+      max-height: 800px;
       transition: all .5s;
       overflow: auto; } }
   #videoContainer .sdkbTitle {
