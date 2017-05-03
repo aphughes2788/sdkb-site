@@ -609,6 +609,10 @@ select:-webkit-autofill {
   background-image: url("/sdkb-site/assets/images/Chinen.jpg");
   background-size: cover; }
 
+  .circlePhoto-yamamoto {
+  background-image: url("/sdkb-site/assets/images/Yamamoto.jpg");
+  background-size: cover; }
+
 .circlePhoto-liu {
   background-image: url("/sdkb-site/assets/images/Liu.gif");
   background-size: cover; }
