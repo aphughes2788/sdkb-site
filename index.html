@@ -441,7 +441,7 @@ event.target.setVolume(0);
                 $('.mobileMenu').removeClass('mobileMenu-show');
                 $('body').removeClass('menu-open');  
             }
-            $(document.main).on('click touchstart', function () {
+            $('.mobileNav a').on('click touchstart', function () {
                 closeMenu();
             });
             $(".menu-icon").click( function(e) {
